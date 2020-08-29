@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="portfolio-2-2.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700&display=swap" rel="stylesheet">
+     <meta charset="UTF-8">
+      <script src="p5.min.js" type="text/javascript"></script>
+      <script src="jquery-3.4.1.min.js"></script>
+      <script src="image-popup.js"></script>
+      <style> canvas {margin:20;} </style>
+      <script src="sinosoidalsketch.js"></script>
+    <title>GENERATE-art</title>
+  </head>
+  
+    <body>
+      <header>
+<!--          TITLE-->
+          <div class = title>
+            GENERATE-art
+          </div>
+<!--          SUBTITLE-->
+          <div class= subtitle>
+              Lilian Ljungkvist - Coding Creatively
+          </div>
+<!--          NAV-->
+          <div class = container> 
+            <nav class = menu-bar>
+                <ul>
+                     <li class = one> 
+                        <a href = "index.html" style = "text-decoration: none;" >HOME</a>
+                    </li>
+                    <li class = two> 
+                        <a href = "gallery.html" style = "text-decoration: none;" >GALLERY</a>
+                    </li>
+                    <li class = three> 
+                        <a href = "about.html" style = "text-decoration: none;">ABOUT</a>
+                    </li>
+                    <li class = four> 
+                        <a href = "contact.html" style = "text-decoration: none;">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+         </div>
+      </header>
+<div class="show">
+  <div class="overlay">
+ </div>
+  <div class="img-show">
+    <span>X</span>
+    <img src=" " alt= "close up of image">
+  </div>
+</div>
+<!--End image popup-->
+<!--          MAIN GALLERY ELEMENTS-->
+        <div id  =toptext>
+        (click photos to enlarge)
+        </div>
+        <div class=gallery>
+
+            <div class= gallery1>
+            
+                <img src= "images/RiddlesmithsAR.jpeg" class= "img_large" alt= "a screenshot of gameplay with AR object">
+            
+                <div class= gallery1text>
+                    <h3>Riddlesmiths</h3>
+                    An AR app on the web that allows new or prospective Goldsmiths students to explore the campus in a scavenger hunt game
+                </div>
+            </div>
+            <div class=smallgalleryitems>
+                <div class= gallery2>
+                    <img src= "images/community.jpg" class= "img_small" alt= "a recursive drawing made of circles" >
+                    <div class= gallery2text>
+                       <h3>Community</h3>
+                    Recursive drawing with circles made with P5.js and printed on canvas
+                    </div>
+                </div>
+                <div class= gallery3>
+                     <img src= "images/4th%20spider.jpg" class= "img_small" alt= "an image of a spider manipulated by repeating the image in different sizes and positions">
+                    <div class= gallery3text>
+                        <h3>Spider Repeat</h3>
+                    Photo translated and rotated around a point. Made with P5.js 
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class=gallerysecond>
+            <div class=gallery4>
+                <div id= "sinusoidal-sketch-holder">
+                    
+                </div>
+                     
+                <div class= gallery4text>
+                    <h3>Sinusoidal Experiments Animation</h3>
+                    Sinusoidal equations change the shapes and colors in an ocillating circle. Made with P5.js 
+                </div>
+           </div>
+           <div class=smallgalleryitems2>
+                <div class= gallery5>
+                   <img src= "images/sinosoidal1.png" class= "img_small" alt= "white lines forming a sphere-like shape">
+                    <div class= gallery5text>
+                        <h3>Sinusoidal Experiments 1</h3>
+                 Sinusoidal equation with polar coordinates and modulo phasing in P5.js
+                    </div>
+                </div>
+                <div class= gallery6>
+                    <img src= "images/sinosoidal2.png" class= "img_small" alt= "white lines forming a sphere-like shape">
+                    <div class= gallery6text>
+                        <h3>Sinusoidal Experiments 2</h3>
+                         Sinusoidal equation with polar coordinates in P5.js
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+  </body>
+</html>

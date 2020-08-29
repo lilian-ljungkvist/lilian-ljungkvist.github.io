@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="portfolio-2-2.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700&display=swap" rel="stylesheet">
+     <meta charset="UTF-8">
+    <title>GENERATE-art</title>
+  </head>
+  
+    <body>
+      <header>
+<!--          TITLE-->
+          <div class = title>
+            GENERATE-art
+          </div>
+<!--          SUBTITLE-->
+          <div class= subtitle>
+              Lilian Ljungkvist - Coding Creatively
+          </div>
+<!--          NAV-->
+          <div class = container> 
+            <nav class = menu-bar>
+                <ul>
+                      <li class = one> 
+                        <a href = "index.html" style = "text-decoration: none;" >HOME</a>
+                    </li>
+                    <li class = two> 
+                        <a href = "gallery.html" style = "text-decoration: none;" >GALLERY</a>
+                    </li>
+                    <li class = three> 
+                        <a href = "about.html" style = "text-decoration: none;">ABOUT</a>
+                    </li>
+                    <li class = four> 
+                        <a href = "contact.html" style = "text-decoration: none;">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+         </div>
+      </header>
+
+        
+        <div class= contact>
+<!--            INFO-->
+            <div class = contact-info>
+                <h3>Contact Me</h3> 
+                <br>
+                <div style= "font-weight: 300;">
+                    <div id = "github-link">
+                        <a href = "https://github.com/lilian-ljungkvist" style = "text-decoration: none; float: left; margin:5px;">My GitHub page</a> 
+                        <img id = "github-img"src= images/github.png height="45" width="45">
+                        </div>
+                    <br>
+                    <br>
+                    Please fill out this form on the right if you have any questions about my work or want to collaborate >>
+                </div>
+            </div>
+        <!--   FORM-->
+         <div class="contact-form">
+          <form action="action_page.php">
+
+            <label for="fname">Your Name</label>
+             <br>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+            <label for="email">Email</label>
+             <br>
+            <input type="text" id="email" name="email" placeholder="blarney.blarn@gmail.com">
+            <br>
+            <label for="inquiry">Inquiry</label>
+             <br>
+            <select id="inquiry" name="inquiry">
+              <option value="exhibitions">Exhibitions</option>
+              <option value="collaborations">Collaborations</option>
+              <option value="other">Other</option>
+            </select>
+             <br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+          </form>
+        </div>
+    </div>
+  </body>
+</html>
