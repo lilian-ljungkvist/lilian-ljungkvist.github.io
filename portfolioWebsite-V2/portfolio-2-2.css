@@ -478,7 +478,7 @@ flex-direction: column;
  transition: box-shadow 0.4s ease-in-out;
 }
 
-#sinosoidal-sketch-holder:hover
+#sinusoidal-sketch-holder:hover
 {
  box-shadow: 0px 10px 20px grey;
 }
