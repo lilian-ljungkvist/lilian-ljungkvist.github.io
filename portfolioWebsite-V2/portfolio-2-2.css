@@ -317,6 +317,7 @@ a:hover:after {
  justify-content: center;
  align-items: center;
  align-content: center;
+ text-align: center;
 }
 
 .img-show
@@ -376,6 +377,7 @@ padding-left: 20px;
  font-family: 'Josefin Sans', sans-serif;
  justify-content: center;
  margin:20px;
+ text-align: center;
 }
 .gallerysecond .img_large
 {
