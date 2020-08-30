@@ -6,7 +6,7 @@ var selected;
 
 function setup()
 {
-	var canvas = createCanvas(400,250);
+	var canvas = createCanvas(windowWidth/2, windowHeight/2);
     canvas.parent('sketch-div');
     numFlowers = 10;
     flowers = [];
@@ -28,7 +28,7 @@ function draw()
     push();
     noStroke();
     fill(0);
-    textSize(width / 50);
+    textSize(width / 40);
     text('Click two flowers to cross-pollinate', 10,30);
     text('then click anywhere to plant new flower!',10,50)
      pop();

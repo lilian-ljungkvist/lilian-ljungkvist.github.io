@@ -291,17 +291,11 @@ a:hover:after {
   font-size: 2vw;
   line-height: 1.2;
 }
-/*
-.intro::after
-{
-    background: white;
-    height: 30px;
-}
-*/
+
 
 /*
-
 ----------------------------------GALLERY PAGE---------------------------------------
+*/
 */
 #toptext
 {
@@ -498,8 +492,8 @@ flex-direction: column;
 {
  background:#A5868B;
  border-radius: 30px;
- width:90%;
- height:100%;
+ width:1%;
+ height:1%;
  float: right;
  margin:10px;
 /* flex-wrap: nowrap;*/
