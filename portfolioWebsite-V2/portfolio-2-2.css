@@ -296,12 +296,14 @@ a:hover:after {
 /*
 ----------------------------------GALLERY PAGE---------------------------------------
 */
-*/
 #toptext
 {
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-    padding:  20px;
+ font-family:'Josefin Sans', sans-serif;
+ font-size:12px;
+ padding-bottom: 5px;
+ align-items: center;
+ align-content: center;
+ text-align: center;
 }
 .gallery
 {
@@ -492,8 +494,8 @@ flex-direction: column;
 {
  background:#A5868B;
  border-radius: 30px;
- width:1%;
- height:1%;
+ width:60%;
+ height:100%;
  float: right;
  margin:10px;
 /* flex-wrap: nowrap;*/
