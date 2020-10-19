@@ -286,7 +286,7 @@ a:hover:after {
   margin-left:10px;
   padding: 5px;
   max-height: 250px;
-  flex-shrink: 2;
+  flex-shrink: 3;
   flex-wrap: wrap;
   font-size: 2vw;
   line-height: 1.2;
