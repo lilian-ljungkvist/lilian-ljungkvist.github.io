@@ -537,6 +537,7 @@ padding: 10px;
 /* I used this W3 schools article to learn this way of making a form: https://www.w3schools.com/howto/howto_css_contact_form.asp*/
 .contact
 {
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -674,4 +675,50 @@ input[type=submit]:hover {
     position: absolute;
     top: 0;
     left: 0;
+}
+//----CONTACT--LANDING--PAGE----------
+
+.landing-page
+{
+  background-image: url("images/ryoichi_bg.jpg");
+  font-family: 'Josefin Sans', sans-serif;
+  padding:40px;
+  width:50%;
+  height:50%;
+  max-width: 200px;
+  text-align:left;
+  margin: 100px;
+   display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  float: top;
+  margin: 15px;
+}
+.thanks
+{
+  font-family: 'Josefin Sans', sans-serif;
+  background:#855737;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  padding: 20px;
+}
+#back-button
+{
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background:#78844B;
+  border-radius: 30px;
+  padding: 20px;
+  width:25%;
+  text-align:left; 
 }
