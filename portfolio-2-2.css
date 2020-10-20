@@ -240,7 +240,7 @@ a:hover:after {
   background:#A5868B;
   color: white;
   width: 33.3%;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 
 }
 .blurb3
@@ -660,6 +660,7 @@ input[type=submit]:hover {
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden
+    object-fit: contain;
 }
 .img-show span{
     font-family: 'Josefin Sans', sans-serif;
@@ -668,11 +669,14 @@ input[type=submit]:hover {
     right: 10px;
     z-index: 99;
     cursor: pointer;
+    object-fit: contain;
 }
 .img-show img{
     width: 100%;
     height: 100%;
     position: absolute;
+    object-fit: contain;
+    z-index: 10000;
     top: 0;
     left: 0;
 }
