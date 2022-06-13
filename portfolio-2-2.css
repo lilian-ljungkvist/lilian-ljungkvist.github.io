@@ -29,6 +29,32 @@ a:hover:after {
     left: 0;
 }
 
+a.currentProjLink {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+a.currentProjLink:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+/*    position: relative;*/
+    background: #FFFF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a.currentProjLink:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
 /*TITLES*/
 .title {
 
@@ -162,9 +188,9 @@ a:hover:after {
     line-height: 18px;
     text-decoration: none;
 
-    background-image: url("images/ryoichi_bg.jpg");
+    background-image: url("images/sinosoidal1.png");
     background-color: #cccccc;
-    height: 500px;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,12 +263,12 @@ a:hover:after {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: flex-end;
-    padding-top: 30px;
+/*    align-items: flex-end;*/
     margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 50px;
     margin-bottom: 30px;
+    margin-top: 200px;
 
 
 
@@ -251,24 +277,30 @@ a:hover:after {
 .profileimg1 {
     border: 10px solid white;
     border-radius: 20px;
-    max-height: 200;
-    max-width: 200;
-    width: 50%;
-    height: 50%;
+/*
+    max-height: 100;
+    max-width: 100;
+*/
+     width:80%;
+    height:50%;
 }
 
 .short-bio-text {
-
+    object-fit: contain;
     background: white;
     border-radius: 20px;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top:50px;
     padding: 5px;
     max-height: 250px;
     flex-shrink: 3;
     flex-wrap: wrap;
     font-size: 2vw;
     line-height: 1.2;
+    width:50%;
+    text-align: left;
+
 }
 
 
