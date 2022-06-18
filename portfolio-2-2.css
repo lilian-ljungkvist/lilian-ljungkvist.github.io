@@ -237,7 +237,7 @@ a.currentProjLink:hover:after {
 
 .img1 {
     object-fit: contain;
-    width: 90%;
+    width: 100%;
     height: 100%;
 
 
@@ -247,7 +247,7 @@ a.currentProjLink:hover:after {
     background: #A5868B;
     color: white;
     width: 33.3%;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     padding-top: -15px;
 
 }
@@ -490,12 +490,14 @@ a.currentProjLink:hover:after {
 }
 
 #sketch-div {
+/*
     background: #A5868B;
     border-radius: 30px;
     width: 60%;
     height: 100%;
     float: right;
     margin: 10px;
+*/
     /* flex-wrap: nowrap;*/
     display: flex;
     justify-content: center;
