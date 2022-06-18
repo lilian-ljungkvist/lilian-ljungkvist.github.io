@@ -60,11 +60,11 @@ a.currentProjLink:hover:after {
 
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 6vw;
-    font-size: 16px;
+    font-size: 20px;
     width: 50%;
     height: 25%;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     border: 10px;
 
 
@@ -596,7 +596,24 @@ input[type=submit]:hover {
     margin: 20px;
     float: top;
 }
-
+#linkedin-link{
+     background: #94BBD7;
+    border-radius: 20px;
+    display: flex;
+    /*    position:absolute;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 1.2;
+    text-decoration: none;
+    max-height: 250px;
+    box-shadow: 5px 5px 8px black;
+    padding: 5px;
+}
 #github-link {
     background: #D4D28F;
     border-radius: 20px;
@@ -614,12 +631,12 @@ input[type=submit]:hover {
     max-height: 250px;
     box-shadow: 5px 5px 8px black;
     padding: 5px;
+    margin-bottom: 20px;
 
 }
 
-#github-img {
+#icon-img {
     float: right;
-    margin: 10px;
 }
 
 /*GALLERY POP UPS*/
