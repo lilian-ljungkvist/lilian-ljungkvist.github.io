@@ -248,7 +248,12 @@ a.currentProjLink:hover:after {
     color: white;
     width: 33.3%;
     padding-bottom: 5px;
+    padding-top: -15px;
 
+}
+.blurbtext2 {
+    padding: 0px;
+    margin:5px;
 }
 
 .blurb3 {
