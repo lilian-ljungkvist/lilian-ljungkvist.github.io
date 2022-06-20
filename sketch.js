@@ -31,7 +31,7 @@ function draw()
     textSize(width / 40);
 //    text('Click two flowers to cross-pollinate', 10,30);
 //    text('then click anywhere to plant new flower!',10,50)
-//     pop();
+     pop();
 
     for(var i = 0; i < flowers.length; i++)
     {
