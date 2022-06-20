@@ -268,16 +268,21 @@ a.currentProjLink:hover:after {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
 /*    align-items: flex-end;*/
-    margin-bottom: 10px;
-    margin-right: 20px;
-    margin-left: 50px;
-    margin-bottom: 30px;
-    margin-top: 200px;
+    width:80%;
+    padding:30px;
 
 
+}
+@media screen and (max-width: 600px) {
 
+    .short-bio{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+    }
 }
 
 .profileimg1 {
@@ -287,28 +292,45 @@ a.currentProjLink:hover:after {
     max-height: 100;
     max-width: 100;
 */
-     width:100%;
-    height:80%;
+    margin-top:150px;
+    margin-left:24px;
+    resize:both;
+    flex-shrink: 2;
+}
+@media screen and (max-width: 600px) {
+
+    .profileimg1{
+    margin-top:10px;
+    margin-left:24px;
+    resize:both;
+    flex-shrink: 2
+    }
 }
 
 .short-bio-text {
-    object-fit: contain;
+/*    object-fit: contain;*/
+    resize: vertical;
     background: white;
     border-radius: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
     margin-top:50px;
     padding: 15px;
-    max-height: 250px;
-    flex-shrink: 3;
+/*    max-height: 250px;*/
+    flex-shrink: 4;
     flex-wrap: wrap;
     font-size: 2vw;
     line-height: 1.2;
-    width:50%;
     text-align: left;
-
+    margin-top: 250px;
 }
+@media screen and (max-width: 600px) {
 
+    .short-bio-text{
+    margin-top:40px;
+    margin-left:24px;
+    resize:both;
+    flex-shrink: 2
+    }
+}
 
 /*
 ----------------------------------GALLERY PAGE---------------------------------------
