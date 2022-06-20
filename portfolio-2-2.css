@@ -189,6 +189,9 @@ a.currentProjLink:hover:after {
 
 ----------------------------------HOME PAGE---------------------------------------
 */
+#home-bg{
+    background: black;
+}
 .intro {
 
     font-family: 'Josefin Sans', sans-serif;
@@ -385,6 +388,8 @@ a.currentProjLink:hover:after {
     box-shadow: 0px 0px 0px grey;
     transition: box-shadow 0.4s ease-in-out;
     text-align: center;
+    align-items: center;
+
 }
 
 .gallery .img_large:hover {
@@ -401,7 +406,7 @@ a.currentProjLink:hover:after {
     flex-shrink: 1;
     margin-top: 20px;
     object-fit: contain;
-
+    align-items: center;
     box-shadow: 0px 0px 0px grey;
     transition: box-shadow 0.4s ease-in-out;
     text-align: center;
@@ -418,6 +423,8 @@ a.currentProjLink:hover:after {
     justify-content: center;
     margin: 20px;
     object-fit: contain;
+    align-items: center;
+
     text-align: center;
 }
 
@@ -430,6 +437,7 @@ a.currentProjLink:hover:after {
     margin: 20px;
     flex-shrink: 1;
     object-fit: contain;
+    align-items: center;
     text-align: center;
 
     box-shadow: 0px 0px 0px grey;
@@ -449,6 +457,7 @@ a.currentProjLink:hover:after {
     flex-shrink: 1;
     margin-top: 20px;
     object-fit: contain;
+    align-items: center;
     text-align: center;
 
     box-shadow: 0px 0px 0px grey;
